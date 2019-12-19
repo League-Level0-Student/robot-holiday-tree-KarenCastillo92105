@@ -18,10 +18,10 @@ public class Tree  {
   public static void main(String[] args) {
 
 	  // 1. Make the robot go fast
-
+	  rob.setSpeed(100);
 	  
 	  // 2. Tell the robot to put its pen down
-
+rob.penDown();
 	  // 3. Find the method called drawBranches below and complete its code
       drawBranches();
       
@@ -36,13 +36,15 @@ public class Tree  {
     
     static void drawBranches() {
         //  Change the color of the line the robot draws to green    
-
+rob.setPenColor(Color.GREEN);
         //  Make an int variable called turnAmount and set it to 175
-
+int turnAmount=175;
         //  Set the robot's angle so it faces right
-
+rob.setAngle(90);
         //  Make a for loop that repeats 11 times and put the rest of the code that draws branches inside the for loop
-   
+   for (int i = 0; i < 11.; i++) {
+	
+}
 
             // Move the robot the width of the tree (use the treeWidth variable from the top of this program)
     		
